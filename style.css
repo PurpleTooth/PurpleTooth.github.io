@@ -1,0 +1,813 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none; 
+}
+
+.registerSliser {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.header {
+    max-width: 1270px;
+    height: 120px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.nav {
+    display:flex;
+    align-items: center;
+    margin:0;
+    font-size: 16px;
+}
+
+.nav-item {
+    margin-left:20px;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#logoImg {
+    height: 64px;
+    margin-right:8px;
+}
+
+.logo {
+    font-weight:900;
+    font-size: 24px;
+    color: #4F4FD9;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color:#4F4FD9;
+}
+
+
+.searchIco:hover {
+    color: #4F4FD9;
+}
+
+#searchPad {
+    width: 660px;
+    height: 19px;
+    border: none;
+    background-color: rgba(79, 79, 217, 0.25);
+    border-radius: 2px;
+    margin-left:8px;
+    outline: none;
+    padding-left: 5px;
+    color: black;
+}
+
+#searchIco {
+    width: 23px;
+    
+}
+
+#register {
+    font-weight: 400;
+}
+
+.arrow {
+    width: 14px;
+}
+
+
+#commendArrows {
+    cursor: pointer;
+}
+
+.commendArrowLeft {
+    margin-right: 5px;
+}
+
+#commendArrows:active {
+    opacity: 0.5;
+}
+
+#registerButton:hover {
+    color:#4F4FD9;
+}
+
+#loginButton:hover {
+    color:#4F4FD9;
+}
+
+#register:hover {
+    color:#4F4FD9;
+}
+
+#arrowDownUp {
+    cursor: pointer;
+}
+
+.headerUnderLine {
+    background-color:rgba(79, 79, 217, 0.20);
+    width: 1260px;
+    height: 1px;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.rabotai {
+    margin: 0 auto;
+    display: flex;
+}
+
+.block1 {
+    margin: 0 auto;
+    margin-top: 24px; 
+    z-index:1;
+    display: flex;
+    flex-direction: column;
+    width: 1260px;
+}
+
+.h1block1 {
+    font-size: 160px;
+    font-weight: 900;
+    color: #4F4FD9;
+    line-height: 83.69%;
+    z-index:1;
+}
+
+#buttonAbout {
+    width: 278px;
+    height: 52px;
+    border-radius: 14px;
+    color: black;
+    background-color: #4F4FD9;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index:1;
+}
+
+#buttonAbout:active {
+    background-color:rgba(79, 79, 217, 0.9) ;
+}
+
+#EllipseBlock1 {
+    z-index:-1;
+    position: absolute;
+    margin-left: 585px;
+}
+
+.countersOnline {
+    margin-top: 18px;
+}
+
+#counterOne {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: #4F4FD9;
+    border-radius: 29px;
+    border: none;
+    color:white;
+}
+
+#counterTwo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    background-color: #7773D9;
+    border-radius: 29px;
+    border: none;
+    color:white;
+}
+
+.borderblock2 {
+    margin: 0 auto;
+    width: 1260px;
+    height: 472px;
+    background: #FFFFFF;
+    border: 1px solid #7773D9;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-top: 18px;
+}
+
+.headerBlock2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.tumblerSellersBlock {
+    display: flex;
+}
+
+.SellersText {
+    margin-left: 46px;
+    font-size: 16px;
+}
+
+#slider {
+    cursor: pointer;
+    width: 24px;
+    margin-left: 6px;
+}
+
+#searchButtonSellers {
+    width: 90px;
+    height: 17px;
+    background: rgba(119, 115, 217, 0.7);
+    border-radius: 2px;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+}
+
+.serverH1 {
+    margin-left: 46px;
+    margin-top: 28px;
+    display: flex;
+    justify-content: unset;
+}
+
+.textSeller {
+    margin-left: 46px;   
+}
+
+
+.textCount {
+    margin-left: 785px;   
+}
+
+.textPrice {
+    margin-left: 48px;   
+}
+
+.underLineCategory {
+    background-color:rgba(79, 79, 217, 0.70);
+    width: 1200px;
+    height: 1px;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.userBlockline {
+    margin-left: 46px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.serverName {
+    width: 62px;
+}
+.avatar {
+    margin-left: 38px;
+}
+
+#man {
+    width: 36px;
+}
+.userAndCommend {
+    line-height: 16px;
+    margin-left: 8px;
+}
+
+star {
+    color: rgba(119, 115, 217, 0.7);
+    font-size: large;
+}
+
+.name {
+    width: 400px;
+}
+
+.Count {
+    width: 90px;
+    margin-left: 418px;
+    text-align: right;
+}
+
+.Price {
+    width: 75px;
+    margin-left: 22px;
+    text-align: right;
+}
+
+.Rub {
+    margin-left: 2px;
+}
+
+.underLineUser {
+    background-color:rgba(79, 79, 217, 0.70);
+    width: 1166px;
+    height: 1px;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.blocksUnderLine {
+    background-color:#4f4fd9;
+    width: 1260px;
+    height: 1px;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 34px;
+}
+
+.bgBlock3 {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.headerBlock3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.userCommend {
+    margin-right: 10px;
+}
+
+.commends {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.userNameAndAccaunt {
+    display: flex;
+    align-items: center;
+}
+
+#manAvatar {
+    width: 60px;
+}
+
+.CommendUser {
+ margin-left: 8px;
+ font-size: 20px;
+}
+
+.CommendName {
+    width: 88px;
+}
+
+.heroBlock {
+    text-transform: uppercase;
+    font-size: 24px;
+    display: flex;
+    border: 1px solid #7773D9;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 128px;
+    height: 48px;
+}
+
+
+.textCommend {
+    width: 286px;
+    height: 266px;
+    background: #FFFFFF;
+    border: 1px solid #7773D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: left;
+    padding:15px;
+}
+
+.commenddd {
+    width: 273px;
+    word-wrap: break-word;
+}
+
+.tableForm {
+    width: 565px;
+    height: 634px;
+    background: #FFFFFF;
+    border: 1px solid #7773D9;
+    border-radius: 40px;
+    margin-top: 28px;
+}
+
+.tableHeader {
+    width: 310px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    color: #4F4FD9;
+    margin:0 auto;
+    margin-top: 28px;
+}
+
+.workForm {
+    width: 506px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #7773D9;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.workFormAboutMe {
+    width: 506px;
+    height: 254px;
+    background: #FFFFFF;
+    border: 1px solid #7773D9;
+    border-radius: 10px;
+    padding-left: 10px;
+    justify-content: right;
+    font-size: 20px;
+}
+
+.block4 {
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+}
+
+.formText {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.buttonWork {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttonSendFormWork {
+    cursor: pointer;
+}
+
+.buttonSendFormWork:active {
+    background-color:rgba(79, 79, 217, 0.9) ;
+}
+
+
+.buttonSendFormWork {
+    text-align: center;
+    width: 132px;
+    height: 26px;
+    background: #4F4FD9;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.formName {
+    margin-left: 24px;
+    margin-top: 12px;
+}
+
+.workBlockAll {
+    display: flex;
+}
+
+.advText {
+    width: 446px;
+    height: 106px;
+    margin-left: 10px;
+    display: inherit;
+}
+
+.WorkWithMeHeader {
+    width: 570px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    color: #4F4FD9;
+    margin:0 auto;
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+
+.advString {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.AdvImage {
+    width: 118px;
+}
+
+.underHeaderAdv {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.aboutCompanyHeader {
+    width: 239px;
+    height: 41px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #4F4FD9;
+}
+
+.aboutCompanyText {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    width: 882px;
+    height: 108px;
+    margin-left: 8px;
+}
+
+.aboutCompanyImg {
+    width: 232px;
+    height: 232px;
+}
+
+.aboutCompanyString {
+    display: flex;
+    align-items: center;
+}
+
+.aboutCompany {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.aboutCompanyAllStrings {
+    margin-top: 14px;
+}
+footer {
+    margin: 0 auto;
+    width: 1260px;
+}
+
+.footerLine {
+    width: 1260px;
+    height: 1px;
+    background-color:#4F4FD9;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.footerLogoText {
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+.FooterSocLogosAndTexts {
+    margin-top: 8px;
+}
+
+.FooterLogotype {
+    display: flex;
+    align-items: center;
+}
+
+.FooterSocLogo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.advertisimentMe {
+    display: flex;
+    text-align: center;
+}
+
+/* Стили для слайдера */ 
+
+.Slider {
+    width: 1184px;
+    height: 330px;
+    overflow: hidden;
+}
+
+.SliderLine {
+    width: 5328px;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0;
+    transition: all ease 0.6s;
+}
+
+/* Стили модального окна */
+
+#modalRegister {
+    display: none;
+    position: fixed;
+    z-index: 3; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5);
+}
+
+#modalLogin {
+    display: none;
+    position: fixed;
+    z-index: 3; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modalBorderRegister {
+    background: #FFFFFF;
+    border: 1px solid #7773D9;
+    border-radius: 40px;
+    width: 360px;
+    height: 360px;
+}
+
+.modalBorderLogin {
+    background: #FFFFFF;
+    border: 1px solid #7773D9;
+    border-radius: 40px;
+    width: 360px;
+    height: 305px;
+}
+
+.formHeader {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+#inputModal {
+    width: 289px;
+    height: 24px;
+    border: 1px solid #7773D9;
+    border-radius: 10px;
+    padding-left: 6px;
+}
+
+#logoModal {
+    width: 73px;
+    margin-top: 6px;
+}
+
+.modalHeader {
+    font-size: 24px;
+    font-weight: 900;
+    color: #4F4FD9;
+}
+.logoModalRegister {
+    display: flex;
+    justify-content: center;
+}
+
+.logoModalLogin {
+    display: flex;
+    justify-content: center;
+}
+
+.closeModal {
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 277px;
+}
+
+
+
+.modalHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.modalForms {
+    display:flex;
+    justify-content: center;
+   
+}
+
+.createAccountButton {
+    width: 158px;
+    height: 28px;
+    background-color: #4F4FD9;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 12px;
+    display:flex;
+    justify-content: center;
+}
+
+.createAccountButton:active {
+    opacity: 0.5;
+}
+
+.rulesParagraph {
+    margin-left: 8px;
+}
+
+.rulesLink {
+    color: #4F4FD9;
+}
+
+.formParagraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#modalForm {
+    margin-top: 10px;
+}
+
+.modalBorderLogin {
+    margin: auto;
+    margin-top: 13%;
+}
+
+.modalBorderRegister {
+    margin: auto;
+    margin-top: 13%;
+}
+
